@@ -18,7 +18,7 @@
 .jumbotron {
     padding:50px 5px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
+    background:rgb(204, 199, 129);
     color:floralwhite;
 }
 .navbar-brand{
@@ -40,4 +40,11 @@ small{
 }
 h3{
     font-size: 26px;
+}
+body{
+    padding: 50px 0px 0px 0px;
+    z-index:0;
+}
+.navbar-dark{
+    background-color:black;
 }
