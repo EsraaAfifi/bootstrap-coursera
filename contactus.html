@@ -29,7 +29,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height=30px width=40px></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -49,6 +49,8 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm">
+                                    <img src="img/logo.png" class="img-fluid">
+
                 </div>
             </div>
         </div>
@@ -102,9 +104,57 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                Form goes here
-            </div>
-             <div class="col-12 col-md">
+             <form>
+                <div class="form-group row">
+                    <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                    <input type="text" class="form-control col-md-10" id="firstname" placeholder="Enter Your First Name">
+                    
+                </div>
+                <div class="form-group row">
+                    <label for="firstname" class="col-md-2 col-form-label">Last Name</label>
+                    <input type="text" class="form-control col-md-10" id="firstname" placeholder="Enter Your Last Name">
+                    
+                </div>
+                
+                <div class="form-group row">
+                    <label for="exampleInputPassword1" class="col-md-2 col-form-label">Password</label>
+                    <input type="password" class="form-control col-md-10" id="exampleInputPassword1" placeholder="Enter Your Password">
+                </div>
+                <!---contactTEL -->
+                <div class="form-group row">
+                   <label for="telnum" class="col-5 col-md-2 col-form-label">Contact Tel</label>
+                    <input type="tel" class="form-control col-md-3" id="areacode" placeholder="Area Code">
+                    <input type="tel" class="form-control col-md-6 offset-1" id="telnum" placeholder="Tel. Number">
+                </div>
+                <!--email-->
+                <div class="form-group row ">
+                    <label for="inputEmail4" class="col-md-2">Email</label>
+                        <input type="email" class="form-control col-md-10" id="inputEmail4" placeholder="Email">
+                </div>
+                        <!--check box-->
+                <div class="form-group row">
+                    <input type="checkbox" class="form-check-input col-md-4" id="exampleCheck1">
+                      <label class="form-check-label col-md-8" for="exampleCheck1">may we contact you?</label>
+                        <select class="form-control col-md-2">
+                         <option>Tel.</option>
+                         <option>Email</option>
+                        </select>
+                    
+                </div>
+                <!--feedback-->
+                <div class="form-group row ">
+                    <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                    <div class="col-md-10">
+                      <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                </div>
+                <!--feed back button-->
+                <div class="form-group row"><br>
+                   <div class="col-md-10 offset-md-11">
+                      <button type="submit" class="btn btn-primary">Send Feedback</button>
+                   </div>
+                </div>
+            
+             </form>
             </div>
        </div>
 
