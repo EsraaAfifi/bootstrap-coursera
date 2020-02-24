@@ -55,18 +55,26 @@ body{
     margin-top:-2px;
 }
 
+#fff{
+    background-color: orange;
+}
+
+#cardheadertask1{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 600;
+
+}
 
 
 
-
-
-
-
-
-
-
-
-
+.btn-primary{
+    float: right;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 20px;
+    font-weight: 600;
+}
 
 
 
