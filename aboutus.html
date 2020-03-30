@@ -118,7 +118,7 @@
         <div class="row align-items-center">
             <div class="col-12">
                 <h2><br>Corporate Leadership</h2>
-                <!--  Now using Bootstrap JavaScript Components -->
+                 <!--  Now using Bootstrap JavaScript Components --
                 
                 <ul class="nav nav-tabs">
                   <li class="nav-item">
@@ -138,8 +138,70 @@
                      <a class="nav-link" href="#alberto"
                        role="tab" data-toggle="tab"> Alberto Somayya,<small>Executive Chef</small></a>
                     </li>   
-                </ul>
-                <!--  put all 4 parts in one big DIV then each one enclosed inside another div with some new js classes -->
+                </ul> -->
+           <!--Now convert Tabs to Accordion-->
+                 <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#peter" aria-expanded="true" aria-controls="collapseOne">
+                            <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+                            </button>
+                        </h5>
+                        </div>
+                        
+
+                        <div id="peter" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                        <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#danny" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>                            </button>
+                        </h5>
+                        </div>
+                        <div id="danny" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                        <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#agumbe" aria-expanded="false" aria-controls="collapseThree">
+                        <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="agumbe" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                        <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#alberto" aria-expanded="false" aria-controls="collapseThree">
+                        <h3>Alberto Somayya <small>Executive Chef</small></h3>
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="alberto" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--  put all 4 parts in one big DIV then each one enclosed inside another div with some new js classes 
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade show active" id="peter">
                         <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
@@ -163,7 +225,7 @@
                 </div>
             </div>
        </div>
-       
+       -->
 
 
                
